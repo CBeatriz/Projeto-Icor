@@ -1,0 +1,448 @@
+<%- include('../partials/header.ejs') %>
+
+<body id="page-top">
+  <%- include('../partials/navbar.ejs')  %> 
+
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Você é a esperança de muitos. Seja doador!</div>
+        <div class="intro-heading text-uppercase">O PROJETO QUE AJUDA E SALVA.</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#introducao">Saiba Mais...</a>
+      </div>
+    </div>
+  </header>
+
+
+  <section id="introducao">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">INTRODUÇÃO</h2>
+          <h3 class="section-subheading text-muted">Desenvolver um aplicativo em Mobile capaz de não somente conectar os
+            doadores aos hemocentros</h3>
+        </div>
+      </div>
+      <div class="row section-subheading">
+        <p>
+          O projeto Icor foi pensado como uma iniciativa a solucionar um problema que apesar 
+          presente na cidade de Manaus, não se faz único somente nela, já que diversas cidades
+           e principalmente as metrópoles, que juntas sofrem com a <i id="importante">baixa taxa de doação 
+           sanguínea</i> que quase nunca corresponde ao que seria considerado ideal pelo Ministério 
+           da Saúde, já que apesar de grande parte da população estar apta para realizar a doação, 
+           não o faz, seja por <i id="importante">de informação, desinteresse, tabus ou até medo</span>.
+        </p>
+        <div class="row">
+          <div class="col-md-6">
+            <img class = 'artigo-img'src="/public/imagens/logo.PNG" alt="logo">
+          </div>
+          <div class="col-md-6">
+            <p>
+              O projeto Icor foi pensado como uma iniciativa a solucionar um problema que apesar 
+              presente na cidade de Manaus, não se faz único somente nela, já que diversas cidades
+               e principalmente as metrópoles, que juntas sofrem com a <i id="importante">baixa taxa de doação 
+               sanguínea</i> que quase nunca corresponde ao que seria considerado ideal pelo Ministério 
+               da Saúde, já que apesar de grande parte da população estar apta para realizar a doação, 
+               não o faz, seja por <i id="importante">de informação, desinteresse, tabus ou até medo</span>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="objetivo">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">OBJETIVOS</h2>
+          <h3 class="section-subheading text-muted">
+            Desenvolver um produto de software 
+            que promova a doação de sangue de uma maneira humanizada, para que tanto doador 
+            como receptor possam ter uma interação entre si e com os hemocentros, e possa 
+            atender a necessidade destes que sofrem com a escassez de doadores.
+          </h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#objetivo-performatico">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1545501318/content-items/002/678/458/01-original.jpg?1545501318" alt="imagem">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Performático</h4>
+            <p class="text-muted">Aplicação eficiente.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#objetivo-conforto">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScvytNgxpE2-uUq3TO9hvOxbTm-tLCp1NVvg&usqp=CAU" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Confortavel</h4>
+            <p class="text-muted">Conforto para o doador e quem receber.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#objetivo-simplicidade">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="data:image/jpeg;base64,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" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Simplicidade</h4>
+            <p class="text-muted">Produto simples e agradavel</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#objetivo-acessibilidade">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="https://miro.medium.com/max/3200/1*E0EfmUZb2DeRCBs3QVSn8w.jpeg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Acessibilidade</h4>
+            <p class="text-muted">aplicação acessivel para todos os públicos.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#objetivo-eficiencia">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="https://agenciaorin.com.br/wp-content/uploads/2019/05/como-criar-uma-presenca-digital-eficiente-site.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>eficiência</h4>
+            <p class="text-muted">eficiente de processo do app.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="processo">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">PROCESSOS</h2>
+          <h3 class="section-subheading text-muted">Etapas para a criação do projeto.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="/public/imagens/about/1.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>1° Etapa</h4>
+                  <h4 class="subheading">Planejamento</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">nessa etapa estaremos realizando constantes reuniões que traram a compreenção do projeto para a equipe.
+                    diagramas, protótipos, documentos serão feitos nesse processo, trazendo um padrão de projeto para a equipe.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="/public/imagens/about/2.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2° Etapa</h4>
+                  <h4 class="subheading">Design UI e UX do projeto</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">O design é muito importante para o projeto visto que trara um ambiente mais confortavel, simples e intuitivo para o produto.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="/public/imagens/about/3.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>3° Etapa</h4>
+                  <h4 class="subheading">Desenvolver</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">O produto começa a a ser criado apartir dessa etapa, onde usaremos metodologias de desenvolvimento
+                    agil para o melhor fluxo do projetos.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="/public/imagens/about/4.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>4° Etapa</h4>
+                  <h4 class="subheading">Teste e entrega</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Será realizado um série de teste, para encontrar possiveis erros, que podem atrapalhar o uso do cliente, e corrigir e por fim a entrega.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>ASAS AOS
+                  <br>QUE QUEREM VOAR</h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-light" id="integrantes">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">INTEGRANTES</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4 mx-auto text-center">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="/public/imagens/integrantes/carla.jpeg" alt="">
+            <h4>Carla Beatriz</h4>
+            <p class="text-muted">Programadora</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-4 mx-auto text-center">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="/public/imagens/integrantes/abyda.jpeg" alt="">
+            <h4>Abyda Pereira</h4>
+            <p class="text-muted">Analista</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4 mx-auto text-center">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="/public/imagens/integrantes/elias.jpeg" alt="">
+            <h4>José Elias</h4>
+            <p class="text-muted">Designer</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <span class="copyright">Copyright &copy; CarlaEliasAbyda</span>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="/">Principal</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="portfolio-modal modal fade" id="objetivo-performatico" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">Performace do aplicativo</h2>
+                <p class="item-intro text-muted">O site deve ser o mais eficiente possivel, rápido no processo de doação.</p>
+                <img class="img-fluid d-block mx-auto" src="/public/imagens/telas/Agendar Doação.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="/public/imagens/telas/Localizador.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="/public/imagens/telas/Perfil do Usuário.png" alt="">
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fa fa-times"></i>
+                  Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="objetivo-conforto" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">Conforto</h2>
+                <p class="item-intro text-muted">A aplicação do projeto tem que ser confortavel para a melhor experiência do cliente.</p>
+                <img class="img-fluid d-block mx-auto" src="/public/imagens/telas/introducao.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="/public/imagens/telas/Tela de Login.png" alt="">
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fa fa-times"></i>
+                  Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="objetivo-simplicidade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">Simplicidade é tudo</h2>
+                <p class="item-intro text-muted">O ambiente de uso deve ser o mais simples o possivel, para facilitar o uso do cliente.</p>
+                <img class="img-fluid d-block mx-auto" src="/public/imagens/telas/Criar Conta.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="/public/imagens/telas/Redefinir Senha 1.png" alt="">
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fa fa-times"></i>
+                  Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="objetivo-acessibilidade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">Acessivel para todos</h2>
+                <p class="item-intro text-muted">O projeto tem o objetivo de ser acessivel para todos os públicos.</p>
+                <img class="img-fluid d-block mx-auto" src="/public/imagens/telas/Mensagens - ex.4.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="/public/imagens/telas/Editar Doação.png" alt="">
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fa fa-times"></i>
+                  Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="objetivo-eficiencia" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Eficiencia da aplicação</h2>
+                <p class="item-intro text-muted">o produto deve ser mais eficiente o possivel em seu trabalho, visto que quanto mais eficiente mais atraente.
+                </p>
+                <img class="img-fluid d-block mx-auto" src="/public/imagens/telas/Teste de Aptidão 1.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="/public/imagens/telas/Teste de Aptidão 2.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="/public/imagens/telas/Teste de Aptidão 3.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="/public/imagens/telas/Teste de Aptidão 4.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="/public/imagens/telas/Teste de Aptidão 5.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="/public/imagens/telas/Teste de Aptidão 6.png" alt="">
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fa fa-times"></i>
+                  Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<%- include('../partials/footer.ejs') %>
